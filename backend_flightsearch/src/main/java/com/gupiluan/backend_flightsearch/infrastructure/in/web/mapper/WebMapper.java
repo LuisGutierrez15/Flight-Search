@@ -105,6 +105,7 @@ public class WebMapper {
 
         public static WebSegment mapWebSegmentFromDomainSegment(FlightSegment segment,
                         List<FareDetails> fareDetailsList) {
+                String id = segment.id();
                 WebDeparture departureInfo = new WebDeparture(segment.departureTime(),
                                 mapWebAirportFromAirportDomain(segment.departureAirport()));
                 WebArrival arrivalInfo = new WebArrival(segment.arrivalTime(),
@@ -119,16 +120,20 @@ public class WebMapper {
                                 .collect(Collectors.toList());
                 FareDetails fareDetails = fareDetailsList.stream()
                                 .filter(fd -> fd.segmentId().equalsIgnoreCase(segment.id()))
-                                .findFirst().get();
+                                .findFirst().orElse(null);
                 Duration duration = segment.flightDuration();
 
-                return new WebSegment(departureInfo, duration, arrivalInfo, mainAirline, operatingAirline, flightNumber,
+                return new WebSegment(id, departureInfo, duration, arrivalInfo, mainAirline, operatingAirline,
+                                flightNumber,
                                 aircraft,
                                 stops,
                                 mapWebFareDetailsFromDomainFareDetails(fareDetails));
         }
 
         private static WebFareDetails mapWebFareDetailsFromDomainFareDetails(FareDetails fareDetails) {
+                if (fareDetails == null) {
+                        return null;
+                }
                 List<Amenity> amenities = fareDetails.amenities();
                 List<WebAmenity> webAmenities = amenities.stream()
                                 .map(amenity -> new WebAmenity(amenity.name(), amenity.isChargeable()))

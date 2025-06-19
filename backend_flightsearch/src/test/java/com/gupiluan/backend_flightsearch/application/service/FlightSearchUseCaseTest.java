@@ -17,12 +17,15 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import com.gupiluan.backend_flightsearch.application.FlightSearchService;
 import com.gupiluan.backend_flightsearch.domain.model.Airline;
 import com.gupiluan.backend_flightsearch.domain.model.Airport;
+import com.gupiluan.backend_flightsearch.domain.model.Amenity;
+import com.gupiluan.backend_flightsearch.domain.model.FareDetails;
 import com.gupiluan.backend_flightsearch.domain.model.FlightOffer;
 import com.gupiluan.backend_flightsearch.domain.model.FlightSearchCriteria;
 import com.gupiluan.backend_flightsearch.domain.model.FlightSegment;
 import com.gupiluan.backend_flightsearch.domain.model.Itinerary;
 import com.gupiluan.backend_flightsearch.domain.model.Price;
 import com.gupiluan.backend_flightsearch.domain.model.Stop;
+import com.gupiluan.backend_flightsearch.domain.model.TravelerFare;
 import com.gupiluan.backend_flightsearch.domain.port.in.FlightSearchUseCase;
 import com.gupiluan.backend_flightsearch.domain.port.out.FlightSearchClientPort;
 
@@ -41,7 +44,7 @@ public class FlightSearchUseCaseTest {
         @Test
         public void testSearchFlights() {
 
-                FlightSearchCriteria criteria = new FlightSearchCriteria("NYC",
+                FlightSearchCriteria criteria = new FlightSearchCriteria("JFK",
                                 "LAX",
                                 LocalDate.now().plusDays(10),
                                 LocalDate.now().plusDays(20),
@@ -49,14 +52,14 @@ public class FlightSearchUseCaseTest {
                                 "USD",
                                 false);
 
-                Airport origin = new Airport("New York International Airport", "NYC", "New York", "United States");
+                Airport origin = new Airport("New York International Airport", "JFK", "New York", "United States");
                 Airport destination = new Airport("Los Angeles International Airport", "LAX", "Los Angeles",
                                 "United States");
 
                 Airline airline = new Airline("American Airlines", "AA");
                 List<Stop> stops = List.of();
                 FlightSegment segment1 = new FlightSegment(
-                                "segment1",
+                                "1",
                                 LocalDate.now().plusDays(10).atTime(13, 0).toString(),
                                 origin,
                                 "Terminal 4",
@@ -70,7 +73,7 @@ public class FlightSearchUseCaseTest {
                                 Duration.parse("PT3H"),
                                 stops);
                 FlightSegment segment2 = new FlightSegment(
-                                "segment2",
+                                "2",
                                 LocalDate.now().plusDays(20).atTime(10, 0).toString(),
                                 destination,
                                 "Terminal 5",
@@ -89,16 +92,22 @@ public class FlightSearchUseCaseTest {
                 List<Itinerary> itineraries = List.of(
                                 itinerary1, itinerary2);
 
+                List<Amenity> amenities = List.of(new Amenity("test", true));
+                List<FareDetails> details = List
+                                .of(new FareDetails("1", "test", "testC", "test", "brandtest", amenities));
+                List<TravelerFare> travelerFares = List.of(new TravelerFare("1", "test", "option",
+                                new Price("USD", BigDecimal.ZERO, BigDecimal.ZERO, BigDecimal.ZERO, BigDecimal.ZERO),
+                                details));
                 List<FlightOffer> expectedFlights = List.of(new FlightOffer("1",
-                                false,
+
                                 9,
                                 itineraries,
                                 itineraries.get(0).segments().get(0).operatingAirline(),
                                 new Price("USD",
                                                 BigDecimal.valueOf(100.00),
                                                 BigDecimal.valueOf(120.00),
-                                                BigDecimal.valueOf(120.00)),
-                                null));
+                                                BigDecimal.valueOf(120.00), BigDecimal.ZERO),
+                                travelerFares));
 
                 when(flightSearchClientPort.fetchFlights(criteria)).thenReturn(expectedFlights);
 

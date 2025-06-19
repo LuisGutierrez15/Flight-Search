@@ -73,14 +73,14 @@ public class AmadeusApiClient implements FlightSearchClientPort {
         AmadeusFlightSearchResponse result = webClient.get()
                 .uri(uriBuilder -> uriBuilder
                         .path("/v2/shopping/flight-offers")
-                        .queryParam("originLocationCode", flightSearchCriteria.originCode())
-                        .queryParam("destinationLocationCode", flightSearchCriteria.destinationCode())
+                        .queryParam("originLocationCode", flightSearchCriteria.origin())
+                        .queryParam("destinationLocationCode", flightSearchCriteria.destination())
                         .queryParam("departureDate", flightSearchCriteria.departureDate())
                         .queryParam("returnDate", flightSearchCriteria.returnDate())
-                        .queryParam("adults", flightSearchCriteria.numberAdults())
+                        .queryParam("adults", flightSearchCriteria.adults())
                         .queryParam("nonStop", flightSearchCriteria.nonStop())
                         .queryParam("currencyCode", flightSearchCriteria.currency())
-                        // .queryParam("max", "20") // TODO I need to change this
+                        .queryParam("max", "100") // 100 max for performance
                         .build())
                 .header("Authorization", authTokenManager.getTokenType() + " " + accessToken)
                 .retrieve()

@@ -27,7 +27,7 @@ public class FlightSearchService implements FlightSearchUseCase {
     @Override
     @Cacheable("flightOffers")
     public List<FlightOffer> searchFlights(FlightSearchCriteria flightSearchCriteria) {
-        if (!flightSearchCriteria.destinationCode().equalsIgnoreCase(flightSearchCriteria.originCode())) {
+        if (!flightSearchCriteria.destination().equalsIgnoreCase(flightSearchCriteria.origin())) {
             return flightSearchClientPort.fetchFlights(flightSearchCriteria);
         }
         return null;

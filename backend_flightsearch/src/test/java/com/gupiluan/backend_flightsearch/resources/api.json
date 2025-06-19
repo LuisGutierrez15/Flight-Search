@@ -1,0 +1,3724 @@
+{
+  "status": 200,
+  "message": "Flight search successful",
+  "data": {
+    "offers": [
+      {
+        "offerId": "1",
+        "itineraries": [
+          {
+            "duration": "PT1H50M",
+            "departure": {
+              "departureTime": "2025-06-15T13:05:00",
+              "departureAirport": {
+                "name": "FELIPE ANGELES INTL",
+                "iataCode": "NLU",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-15T14:55:00",
+              "arrivalAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-15T13:05:00",
+                  "departureAirport": {
+                    "name": "FELIPE ANGELES INTL",
+                    "iataCode": "NLU",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-15T14:55:00",
+                  "arrivalAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 7351",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "duration": "PT1H55M",
+            "departure": {
+              "departureTime": "2025-06-19T16:05:00",
+              "departureAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-19T18:00:00",
+              "arrivalAirport": {
+                "name": "FELIPE ANGELES INTL",
+                "iataCode": "NLU",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-19T16:05:00",
+                  "departureAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-19T18:00:00",
+                  "arrivalAirport": {
+                    "name": "FELIPE ANGELES INTL",
+                    "iataCode": "NLU",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 7282",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "priceTotal": 312.78,
+        "pricePerTraveler": 156.39,
+        "fees": 0.0,
+        "currency": "USD"
+      },
+      {
+        "offerId": "2",
+        "itineraries": [
+          {
+            "duration": "PT1H50M",
+            "departure": {
+              "departureTime": "2025-06-15T22:15:00",
+              "departureAirport": {
+                "name": "FELIPE ANGELES INTL",
+                "iataCode": "NLU",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-16T00:05:00",
+              "arrivalAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-15T22:15:00",
+                  "departureAirport": {
+                    "name": "FELIPE ANGELES INTL",
+                    "iataCode": "NLU",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-16T00:05:00",
+                  "arrivalAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 7283",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "duration": "PT1H55M",
+            "departure": {
+              "departureTime": "2025-06-19T16:05:00",
+              "departureAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-19T18:00:00",
+              "arrivalAirport": {
+                "name": "FELIPE ANGELES INTL",
+                "iataCode": "NLU",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-19T16:05:00",
+                  "departureAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-19T18:00:00",
+                  "arrivalAirport": {
+                    "name": "FELIPE ANGELES INTL",
+                    "iataCode": "NLU",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 7282",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "priceTotal": 312.78,
+        "pricePerTraveler": 156.39,
+        "fees": 0.0,
+        "currency": "USD"
+      },
+      {
+        "offerId": "3",
+        "itineraries": [
+          {
+            "duration": "PT1H55M",
+            "departure": {
+              "departureTime": "2025-06-15T08:50:00",
+              "departureAirport": {
+                "name": "TOLUCA-A.LOPEZ MATEOS",
+                "iataCode": "TLC",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-15T10:45:00",
+              "arrivalAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-15T08:50:00",
+                  "departureAirport": {
+                    "name": "TOLUCA-A.LOPEZ MATEOS",
+                    "iataCode": "TLC",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-15T10:45:00",
+                  "arrivalAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 9245",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "duration": "PT1H50M",
+            "departure": {
+              "departureTime": "2025-06-19T06:25:00",
+              "departureAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-19T08:15:00",
+              "arrivalAirport": {
+                "name": "TOLUCA-A.LOPEZ MATEOS",
+                "iataCode": "TLC",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-19T06:25:00",
+                  "departureAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-19T08:15:00",
+                  "arrivalAirport": {
+                    "name": "TOLUCA-A.LOPEZ MATEOS",
+                    "iataCode": "TLC",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 9244",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "priceTotal": 324.28,
+        "pricePerTraveler": 162.14,
+        "fees": 0.0,
+        "currency": "USD"
+      },
+      {
+        "offerId": "4",
+        "itineraries": [
+          {
+            "duration": "PT1H50M",
+            "departure": {
+              "departureTime": "2025-06-15T13:05:00",
+              "departureAirport": {
+                "name": "FELIPE ANGELES INTL",
+                "iataCode": "NLU",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-15T14:55:00",
+              "arrivalAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-15T13:05:00",
+                  "departureAirport": {
+                    "name": "FELIPE ANGELES INTL",
+                    "iataCode": "NLU",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-15T14:55:00",
+                  "arrivalAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 7351",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "C",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "PREMIUM SEAT",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "CHANGE BEFORE DEPARTURE",
+                      "isChargeable": false
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "duration": "PT1H55M",
+            "departure": {
+              "departureTime": "2025-06-19T06:10:00",
+              "departureAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-19T08:05:00",
+              "arrivalAirport": {
+                "name": "FELIPE ANGELES INTL",
+                "iataCode": "NLU",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-19T06:10:00",
+                  "departureAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-19T08:05:00",
+                  "arrivalAirport": {
+                    "name": "FELIPE ANGELES INTL",
+                    "iataCode": "NLU",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 7350",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "C",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "PREMIUM SEAT",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "CHANGE BEFORE DEPARTURE",
+                      "isChargeable": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "priceTotal": 368.58,
+        "pricePerTraveler": 184.29,
+        "fees": 0.0,
+        "currency": "USD"
+      },
+      {
+        "offerId": "5",
+        "itineraries": [
+          {
+            "duration": "PT1H50M",
+            "departure": {
+              "departureTime": "2025-06-15T22:15:00",
+              "departureAirport": {
+                "name": "FELIPE ANGELES INTL",
+                "iataCode": "NLU",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-16T00:05:00",
+              "arrivalAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-15T22:15:00",
+                  "departureAirport": {
+                    "name": "FELIPE ANGELES INTL",
+                    "iataCode": "NLU",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-16T00:05:00",
+                  "arrivalAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 7283",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "C",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "PREMIUM SEAT",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "CHANGE BEFORE DEPARTURE",
+                      "isChargeable": false
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "duration": "PT1H55M",
+            "departure": {
+              "departureTime": "2025-06-19T06:10:00",
+              "departureAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-19T08:05:00",
+              "arrivalAirport": {
+                "name": "FELIPE ANGELES INTL",
+                "iataCode": "NLU",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-19T06:10:00",
+                  "departureAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-19T08:05:00",
+                  "arrivalAirport": {
+                    "name": "FELIPE ANGELES INTL",
+                    "iataCode": "NLU",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 7350",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "C",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "PREMIUM SEAT",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "CHANGE BEFORE DEPARTURE",
+                      "isChargeable": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "priceTotal": 368.58,
+        "pricePerTraveler": 184.29,
+        "fees": 0.0,
+        "currency": "USD"
+      },
+      {
+        "offerId": "6",
+        "itineraries": [
+          {
+            "duration": "PT1H55M",
+            "departure": {
+              "departureTime": "2025-06-15T06:25:00",
+              "departureAirport": {
+                "name": "BENITO JUAREZ INTL",
+                "iataCode": "MEX",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-15T08:20:00",
+              "arrivalAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-15T06:25:00",
+                  "departureAirport": {
+                    "name": "BENITO JUAREZ INTL",
+                    "iataCode": "MEX",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-15T08:20:00",
+                  "arrivalAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 1100",
+                "aircraft": "AIRBUS A321",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "Z",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "duration": "PT2H",
+            "departure": {
+              "departureTime": "2025-06-19T09:10:00",
+              "departureAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-19T11:10:00",
+              "arrivalAirport": {
+                "name": "BENITO JUAREZ INTL",
+                "iataCode": "MEX",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-19T09:10:00",
+                  "departureAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-19T11:10:00",
+                  "arrivalAirport": {
+                    "name": "BENITO JUAREZ INTL",
+                    "iataCode": "MEX",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 1101",
+                "aircraft": "AIRBUS A321",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "priceTotal": 635.28,
+        "pricePerTraveler": 317.64,
+        "fees": 0.0,
+        "currency": "USD"
+      },
+      {
+        "offerId": "7",
+        "itineraries": [
+          {
+            "duration": "PT1H55M",
+            "departure": {
+              "departureTime": "2025-06-15T06:25:00",
+              "departureAirport": {
+                "name": "BENITO JUAREZ INTL",
+                "iataCode": "MEX",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-15T08:20:00",
+              "arrivalAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-15T06:25:00",
+                  "departureAirport": {
+                    "name": "BENITO JUAREZ INTL",
+                    "iataCode": "MEX",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-15T08:20:00",
+                  "arrivalAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 1100",
+                "aircraft": "AIRBUS A321",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "Z",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "duration": "PT2H",
+            "departure": {
+              "departureTime": "2025-06-19T16:05:00",
+              "departureAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-19T18:05:00",
+              "arrivalAirport": {
+                "name": "BENITO JUAREZ INTL",
+                "iataCode": "MEX",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-19T16:05:00",
+                  "departureAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-19T18:05:00",
+                  "arrivalAirport": {
+                    "name": "BENITO JUAREZ INTL",
+                    "iataCode": "MEX",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 1105",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "priceTotal": 635.28,
+        "pricePerTraveler": 317.64,
+        "fees": 0.0,
+        "currency": "USD"
+      },
+      {
+        "offerId": "8",
+        "itineraries": [
+          {
+            "duration": "PT1H55M",
+            "departure": {
+              "departureTime": "2025-06-15T06:25:00",
+              "departureAirport": {
+                "name": "BENITO JUAREZ INTL",
+                "iataCode": "MEX",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-15T08:20:00",
+              "arrivalAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-15T06:25:00",
+                  "departureAirport": {
+                    "name": "BENITO JUAREZ INTL",
+                    "iataCode": "MEX",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-15T08:20:00",
+                  "arrivalAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 1100",
+                "aircraft": "AIRBUS A321",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "Z",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "duration": "PT2H",
+            "departure": {
+              "departureTime": "2025-06-19T22:40:00",
+              "departureAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-20T00:40:00",
+              "arrivalAirport": {
+                "name": "BENITO JUAREZ INTL",
+                "iataCode": "MEX",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-19T22:40:00",
+                  "departureAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-20T00:40:00",
+                  "arrivalAirport": {
+                    "name": "BENITO JUAREZ INTL",
+                    "iataCode": "MEX",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 1109",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "priceTotal": 635.28,
+        "pricePerTraveler": 317.64,
+        "fees": 0.0,
+        "currency": "USD"
+      },
+      {
+        "offerId": "9",
+        "itineraries": [
+          {
+            "duration": "PT1H55M",
+            "departure": {
+              "departureTime": "2025-06-15T13:30:00",
+              "departureAirport": {
+                "name": "BENITO JUAREZ INTL",
+                "iataCode": "MEX",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-15T15:25:00",
+              "arrivalAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-15T13:30:00",
+                  "departureAirport": {
+                    "name": "BENITO JUAREZ INTL",
+                    "iataCode": "MEX",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-15T15:25:00",
+                  "arrivalAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 1104",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "duration": "PT2H",
+            "departure": {
+              "departureTime": "2025-06-19T09:10:00",
+              "departureAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-19T11:10:00",
+              "arrivalAirport": {
+                "name": "BENITO JUAREZ INTL",
+                "iataCode": "MEX",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-19T09:10:00",
+                  "departureAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-19T11:10:00",
+                  "arrivalAirport": {
+                    "name": "BENITO JUAREZ INTL",
+                    "iataCode": "MEX",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 1101",
+                "aircraft": "AIRBUS A321",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "priceTotal": 674.68,
+        "pricePerTraveler": 337.34,
+        "fees": 0.0,
+        "currency": "USD"
+      },
+      {
+        "offerId": "10",
+        "itineraries": [
+          {
+            "duration": "PT1H55M",
+            "departure": {
+              "departureTime": "2025-06-15T13:30:00",
+              "departureAirport": {
+                "name": "BENITO JUAREZ INTL",
+                "iataCode": "MEX",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-15T15:25:00",
+              "arrivalAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-15T13:30:00",
+                  "departureAirport": {
+                    "name": "BENITO JUAREZ INTL",
+                    "iataCode": "MEX",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-15T15:25:00",
+                  "arrivalAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 1104",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "duration": "PT2H",
+            "departure": {
+              "departureTime": "2025-06-19T16:05:00",
+              "departureAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-19T18:05:00",
+              "arrivalAirport": {
+                "name": "BENITO JUAREZ INTL",
+                "iataCode": "MEX",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-19T16:05:00",
+                  "departureAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-19T18:05:00",
+                  "arrivalAirport": {
+                    "name": "BENITO JUAREZ INTL",
+                    "iataCode": "MEX",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 1105",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "priceTotal": 674.68,
+        "pricePerTraveler": 337.34,
+        "fees": 0.0,
+        "currency": "USD"
+      },
+      {
+        "offerId": "11",
+        "itineraries": [
+          {
+            "duration": "PT1H55M",
+            "departure": {
+              "departureTime": "2025-06-15T13:30:00",
+              "departureAirport": {
+                "name": "BENITO JUAREZ INTL",
+                "iataCode": "MEX",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-15T15:25:00",
+              "arrivalAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-15T13:30:00",
+                  "departureAirport": {
+                    "name": "BENITO JUAREZ INTL",
+                    "iataCode": "MEX",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-15T15:25:00",
+                  "arrivalAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 1104",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "duration": "PT2H",
+            "departure": {
+              "departureTime": "2025-06-19T22:40:00",
+              "departureAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-20T00:40:00",
+              "arrivalAirport": {
+                "name": "BENITO JUAREZ INTL",
+                "iataCode": "MEX",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-19T22:40:00",
+                  "departureAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-20T00:40:00",
+                  "arrivalAirport": {
+                    "name": "BENITO JUAREZ INTL",
+                    "iataCode": "MEX",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 1109",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "priceTotal": 674.68,
+        "pricePerTraveler": 337.34,
+        "fees": 0.0,
+        "currency": "USD"
+      },
+      {
+        "offerId": "12",
+        "itineraries": [
+          {
+            "duration": "PT1H55M",
+            "departure": {
+              "departureTime": "2025-06-15T20:00:00",
+              "departureAirport": {
+                "name": "BENITO JUAREZ INTL",
+                "iataCode": "MEX",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-15T21:55:00",
+              "arrivalAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-15T20:00:00",
+                  "departureAirport": {
+                    "name": "BENITO JUAREZ INTL",
+                    "iataCode": "MEX",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-15T21:55:00",
+                  "arrivalAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 1108",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "duration": "PT2H",
+            "departure": {
+              "departureTime": "2025-06-19T09:10:00",
+              "departureAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-19T11:10:00",
+              "arrivalAirport": {
+                "name": "BENITO JUAREZ INTL",
+                "iataCode": "MEX",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-19T09:10:00",
+                  "departureAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-19T11:10:00",
+                  "arrivalAirport": {
+                    "name": "BENITO JUAREZ INTL",
+                    "iataCode": "MEX",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 1101",
+                "aircraft": "AIRBUS A321",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "priceTotal": 674.68,
+        "pricePerTraveler": 337.34,
+        "fees": 0.0,
+        "currency": "USD"
+      },
+      {
+        "offerId": "13",
+        "itineraries": [
+          {
+            "duration": "PT1H55M",
+            "departure": {
+              "departureTime": "2025-06-15T20:00:00",
+              "departureAirport": {
+                "name": "BENITO JUAREZ INTL",
+                "iataCode": "MEX",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-15T21:55:00",
+              "arrivalAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-15T20:00:00",
+                  "departureAirport": {
+                    "name": "BENITO JUAREZ INTL",
+                    "iataCode": "MEX",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-15T21:55:00",
+                  "arrivalAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 1108",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "duration": "PT2H",
+            "departure": {
+              "departureTime": "2025-06-19T16:05:00",
+              "departureAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-19T18:05:00",
+              "arrivalAirport": {
+                "name": "BENITO JUAREZ INTL",
+                "iataCode": "MEX",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-19T16:05:00",
+                  "departureAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-19T18:05:00",
+                  "arrivalAirport": {
+                    "name": "BENITO JUAREZ INTL",
+                    "iataCode": "MEX",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 1105",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "priceTotal": 674.68,
+        "pricePerTraveler": 337.34,
+        "fees": 0.0,
+        "currency": "USD"
+      },
+      {
+        "offerId": "14",
+        "itineraries": [
+          {
+            "duration": "PT1H55M",
+            "departure": {
+              "departureTime": "2025-06-15T20:00:00",
+              "departureAirport": {
+                "name": "BENITO JUAREZ INTL",
+                "iataCode": "MEX",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-15T21:55:00",
+              "arrivalAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-15T20:00:00",
+                  "departureAirport": {
+                    "name": "BENITO JUAREZ INTL",
+                    "iataCode": "MEX",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-15T21:55:00",
+                  "arrivalAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 1108",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "duration": "PT2H",
+            "departure": {
+              "departureTime": "2025-06-19T22:40:00",
+              "departureAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-20T00:40:00",
+              "arrivalAirport": {
+                "name": "BENITO JUAREZ INTL",
+                "iataCode": "MEX",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-19T22:40:00",
+                  "departureAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-20T00:40:00",
+                  "arrivalAirport": {
+                    "name": "BENITO JUAREZ INTL",
+                    "iataCode": "MEX",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 1109",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "B",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY10KG 22LB 55L X 40W X 25H",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "priceTotal": 674.68,
+        "pricePerTraveler": 337.34,
+        "fees": 0.0,
+        "currency": "USD"
+      },
+      {
+        "offerId": "15",
+        "itineraries": [
+          {
+            "duration": "PT1H50M",
+            "departure": {
+              "departureTime": "2025-06-15T13:05:00",
+              "departureAirport": {
+                "name": "FELIPE ANGELES INTL",
+                "iataCode": "NLU",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-15T14:55:00",
+              "arrivalAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-15T13:05:00",
+                  "departureAirport": {
+                    "name": "FELIPE ANGELES INTL",
+                    "iataCode": "NLU",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-15T14:55:00",
+                  "arrivalAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 7351",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "S",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY15KG 33LB 55L X 40W X 25H",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PRIORITY CHECK IN",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PREMIUM SEAT",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "CHANGE BEFORE DEPARTURE",
+                      "isChargeable": false
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "duration": "PT1H50M",
+            "departure": {
+              "departureTime": "2025-06-19T06:25:00",
+              "departureAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-19T08:15:00",
+              "arrivalAirport": {
+                "name": "TOLUCA-A.LOPEZ MATEOS",
+                "iataCode": "TLC",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-19T06:25:00",
+                  "departureAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-19T08:15:00",
+                  "arrivalAirport": {
+                    "name": "TOLUCA-A.LOPEZ MATEOS",
+                    "iataCode": "TLC",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 9244",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "S",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY15KG 33LB 55L X 40W X 25H",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PRIORITY CHECK IN",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PREMIUM SEAT",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "CHANGE BEFORE DEPARTURE",
+                      "isChargeable": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "priceTotal": 934.58,
+        "pricePerTraveler": 467.29,
+        "fees": 0.0,
+        "currency": "USD"
+      },
+      {
+        "offerId": "16",
+        "itineraries": [
+          {
+            "duration": "PT1H50M",
+            "departure": {
+              "departureTime": "2025-06-15T22:15:00",
+              "departureAirport": {
+                "name": "FELIPE ANGELES INTL",
+                "iataCode": "NLU",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-16T00:05:00",
+              "arrivalAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-15T22:15:00",
+                  "departureAirport": {
+                    "name": "FELIPE ANGELES INTL",
+                    "iataCode": "NLU",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-16T00:05:00",
+                  "arrivalAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 7283",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "S",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY15KG 33LB 55L X 40W X 25H",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PRIORITY CHECK IN",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PREMIUM SEAT",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "CHANGE BEFORE DEPARTURE",
+                      "isChargeable": false
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "duration": "PT1H50M",
+            "departure": {
+              "departureTime": "2025-06-19T06:25:00",
+              "departureAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-19T08:15:00",
+              "arrivalAirport": {
+                "name": "TOLUCA-A.LOPEZ MATEOS",
+                "iataCode": "TLC",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-19T06:25:00",
+                  "departureAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-19T08:15:00",
+                  "arrivalAirport": {
+                    "name": "TOLUCA-A.LOPEZ MATEOS",
+                    "iataCode": "TLC",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 9244",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "S",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY15KG 33LB 55L X 40W X 25H",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PRIORITY CHECK IN",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PREMIUM SEAT",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "CHANGE BEFORE DEPARTURE",
+                      "isChargeable": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "priceTotal": 934.58,
+        "pricePerTraveler": 467.29,
+        "fees": 0.0,
+        "currency": "USD"
+      },
+      {
+        "offerId": "17",
+        "itineraries": [
+          {
+            "duration": "PT1H55M",
+            "departure": {
+              "departureTime": "2025-06-15T08:50:00",
+              "departureAirport": {
+                "name": "TOLUCA-A.LOPEZ MATEOS",
+                "iataCode": "TLC",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-15T10:45:00",
+              "arrivalAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-15T08:50:00",
+                  "departureAirport": {
+                    "name": "TOLUCA-A.LOPEZ MATEOS",
+                    "iataCode": "TLC",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-15T10:45:00",
+                  "arrivalAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 9245",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "S",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY15KG 33LB 55L X 40W X 25H",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PRIORITY CHECK IN",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PREMIUM SEAT",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "CHANGE BEFORE DEPARTURE",
+                      "isChargeable": false
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "duration": "PT1H55M",
+            "departure": {
+              "departureTime": "2025-06-19T06:10:00",
+              "departureAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-19T08:05:00",
+              "arrivalAirport": {
+                "name": "FELIPE ANGELES INTL",
+                "iataCode": "NLU",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-19T06:10:00",
+                  "departureAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-19T08:05:00",
+                  "arrivalAirport": {
+                    "name": "FELIPE ANGELES INTL",
+                    "iataCode": "NLU",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 7350",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "S",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY15KG 33LB 55L X 40W X 25H",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PRIORITY CHECK IN",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PREMIUM SEAT",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "CHANGE BEFORE DEPARTURE",
+                      "isChargeable": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "priceTotal": 969.28,
+        "pricePerTraveler": 484.64,
+        "fees": 0.0,
+        "currency": "USD"
+      },
+      {
+        "offerId": "18",
+        "itineraries": [
+          {
+            "duration": "PT1H55M",
+            "departure": {
+              "departureTime": "2025-06-15T08:50:00",
+              "departureAirport": {
+                "name": "TOLUCA-A.LOPEZ MATEOS",
+                "iataCode": "TLC",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-15T10:45:00",
+              "arrivalAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-15T08:50:00",
+                  "departureAirport": {
+                    "name": "TOLUCA-A.LOPEZ MATEOS",
+                    "iataCode": "TLC",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-15T10:45:00",
+                  "arrivalAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 9245",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "S",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY15KG 33LB 55L X 40W X 25H",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PRIORITY CHECK IN",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PREMIUM SEAT",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "CHANGE BEFORE DEPARTURE",
+                      "isChargeable": false
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "duration": "PT1H55M",
+            "departure": {
+              "departureTime": "2025-06-19T16:05:00",
+              "departureAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-19T18:00:00",
+              "arrivalAirport": {
+                "name": "FELIPE ANGELES INTL",
+                "iataCode": "NLU",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-19T16:05:00",
+                  "departureAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-19T18:00:00",
+                  "arrivalAirport": {
+                    "name": "FELIPE ANGELES INTL",
+                    "iataCode": "NLU",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 7282",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "S",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY15KG 33LB 55L X 40W X 25H",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PRIORITY CHECK IN",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PREMIUM SEAT",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "CHANGE BEFORE DEPARTURE",
+                      "isChargeable": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "priceTotal": 969.28,
+        "pricePerTraveler": 484.64,
+        "fees": 0.0,
+        "currency": "USD"
+      },
+      {
+        "offerId": "19",
+        "itineraries": [
+          {
+            "duration": "PT1H55M",
+            "departure": {
+              "departureTime": "2025-06-15T08:50:00",
+              "departureAirport": {
+                "name": "TOLUCA-A.LOPEZ MATEOS",
+                "iataCode": "TLC",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-15T10:45:00",
+              "arrivalAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-15T08:50:00",
+                  "departureAirport": {
+                    "name": "TOLUCA-A.LOPEZ MATEOS",
+                    "iataCode": "TLC",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-15T10:45:00",
+                  "arrivalAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 9245",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "S",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY15KG 33LB 55L X 40W X 25H",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PRIORITY CHECK IN",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PREMIUM SEAT",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "CHANGE BEFORE DEPARTURE",
+                      "isChargeable": false
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "duration": "PT2H",
+            "departure": {
+              "departureTime": "2025-06-19T09:10:00",
+              "departureAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-19T11:10:00",
+              "arrivalAirport": {
+                "name": "BENITO JUAREZ INTL",
+                "iataCode": "MEX",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-19T09:10:00",
+                  "departureAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-19T11:10:00",
+                  "arrivalAirport": {
+                    "name": "BENITO JUAREZ INTL",
+                    "iataCode": "MEX",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 1101",
+                "aircraft": "AIRBUS A321",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "S",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY15KG 33LB 55L X 40W X 25H",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PRIORITY CHECK IN",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PREMIUM SEAT",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "CHANGE BEFORE DEPARTURE",
+                      "isChargeable": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "priceTotal": 1254.68,
+        "pricePerTraveler": 627.34,
+        "fees": 0.0,
+        "currency": "USD"
+      },
+      {
+        "offerId": "20",
+        "itineraries": [
+          {
+            "duration": "PT1H55M",
+            "departure": {
+              "departureTime": "2025-06-15T08:50:00",
+              "departureAirport": {
+                "name": "TOLUCA-A.LOPEZ MATEOS",
+                "iataCode": "TLC",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-15T10:45:00",
+              "arrivalAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-15T08:50:00",
+                  "departureAirport": {
+                    "name": "TOLUCA-A.LOPEZ MATEOS",
+                    "iataCode": "TLC",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-15T10:45:00",
+                  "arrivalAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 9245",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "S",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY15KG 33LB 55L X 40W X 25H",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PRIORITY CHECK IN",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PREMIUM SEAT",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "CHANGE BEFORE DEPARTURE",
+                      "isChargeable": false
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "duration": "PT2H",
+            "departure": {
+              "departureTime": "2025-06-19T16:05:00",
+              "departureAirport": {
+                "name": "M. CRESCENCIO REJON",
+                "iataCode": "MID",
+                "city": "MERIDA",
+                "country": "MEXICO"
+              }
+            },
+            "arrival": {
+              "arrivalTime": "2025-06-19T18:05:00",
+              "arrivalAirport": {
+                "name": "BENITO JUAREZ INTL",
+                "iataCode": "MEX",
+                "city": "MEXICO CITY",
+                "country": "MEXICO"
+              }
+            },
+            "mainAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "operatingAirline": {
+              "code": "VB",
+              "name": "VIVA AEROBUS"
+            },
+            "segments": [
+              {
+                "departure": {
+                  "departureTime": "2025-06-19T16:05:00",
+                  "departureAirport": {
+                    "name": "M. CRESCENCIO REJON",
+                    "iataCode": "MID",
+                    "city": "MERIDA",
+                    "country": "MEXICO"
+                  }
+                },
+                "arrival": {
+                  "arrivalTime": "2025-06-19T18:05:00",
+                  "arrivalAirport": {
+                    "name": "BENITO JUAREZ INTL",
+                    "iataCode": "MEX",
+                    "city": "MEXICO CITY",
+                    "country": "MEXICO"
+                  }
+                },
+                "mainAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "operatingAirline": {
+                  "code": "VB",
+                  "name": "VIVA AEROBUS"
+                },
+                "flightNumber": "VB 1105",
+                "aircraft": "AIRBUS A320",
+                "stops": [],
+                "details": {
+                  "cabin": "ECONOMY",
+                  "fareClass": "S",
+                  "amenities": [
+                    {
+                      "name": "LAPTOP OR HANDBAG UP TO 85LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "CARRY15KG 33LB 55L X 40W X 25H",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "UPTO55LB 25KG AND62LI 158LCM",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PRIORITY CHECK IN",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "BASIC SEAT",
+                      "isChargeable": false
+                    },
+                    {
+                      "name": "PREMIUM SEAT",
+                      "isChargeable": true
+                    },
+                    {
+                      "name": "CHANGE BEFORE DEPARTURE",
+                      "isChargeable": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "priceTotal": 1254.68,
+        "pricePerTraveler": 627.34,
+        "fees": 0.0,
+        "currency": "USD"
+      }
+    ]
+  }
+}

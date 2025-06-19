@@ -3,11 +3,10 @@ package com.gupiluan.backend_flightsearch.domain.model;
 /**
  * Represents an airport with its details.
  *
- * @param name            the name of the airport
- * @param iataCode        the IATA code of the airport
- * @param city            the city where the airport is located
- * @param country         the country where the airport is located
- * @param layoverDuration the duration of layover at the airport, can be null
+ * @param name     the name of the airport
+ * @param iataCode the IATA code of the airport
+ * @param city     the city where the airport is located
+ * @param country  the country where the airport is located
  */
 public record Airport(String name, String iataCode, String city, String country) {
 
