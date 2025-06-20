@@ -4,7 +4,7 @@ export type FlightSearchCriteria = {
   departureDate: Date | undefined | string;
   returnDate: Date | undefined | string;
   adults: number | undefined;
-  currency: string | undefined;
+  currency: "MXN" | "USD" | "EUR" | string | undefined;
   nonStop: boolean | undefined;
   sortByPrice: "asc" | "desc" | undefined;
   sortByDuration: "asc" | "desc" | undefined;

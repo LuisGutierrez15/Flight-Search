@@ -56,7 +56,7 @@ const ResultsPage = () => {
       description: `Total duration: ${formatISODuration(offer.duration)}`,
       details: (
         <button
-          className={`p-4 rounded-lg font-semibold transition-colors duration-300text-white ${buttonVisited}dark:text-gray-900 shadow-lg cursor-pointer text-white`}
+          className={`p-4 rounded-lg font-semibold transition-colors duration-300text-white ${buttonVisited} dark:text-gray-900 shadow-lg cursor-pointer text-white`}
           onClick={() => {
             dispatch(addVisited(offer.offerId));
             dispatch(setflightOffer(offer));

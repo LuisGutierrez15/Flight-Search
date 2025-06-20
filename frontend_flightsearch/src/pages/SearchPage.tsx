@@ -132,7 +132,7 @@ const SearchPage = () => {
                 className="w-9/12 h-14 px-4   dark:text-white focus:outline-none cursor-no-drop"
               />
               <select
-                className="w-3/12 px-4 h-full  dark:text-white appearance-none border-l-2 border-gray-300 dark:border-gray-700  focus:outline-none text-lg"
+                className="w-3/12 px-3 h-full dark:text-white appearance-none border-l-2 border-gray-300 dark:border-gray-700  focus:outline-none text-lg"
                 onChange={onCurrencyChangeHandler}
               >
                 <option value={""}>↓</option>
