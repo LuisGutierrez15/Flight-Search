@@ -95,11 +95,11 @@ const SearchPage = () => {
 
           {selectedDates.departureDate && (
             <div style={{ marginTop: "1rem" }}>
-              <p className="font-semibold px-2">
+              <p className="font-semibold px-2 dark:text-white">
                 Departure Date: {selectedDates.departureDate.toDateString()}
               </p>
               {selectedDates.returnDate && (
-                <p className="font-semibold px-2">
+                <p className="font-semibold px-2 dark:text-white">
                   Return Date: {selectedDates.returnDate.toDateString()}
                 </p>
               )}
@@ -154,7 +154,7 @@ const SearchPage = () => {
         <div className="text-red-400 text-md font-bold mb-3.5 text-center">
           {error}
           <button
-            className="rounded p-2 bg-gray-500 mx-3.5"
+            className="rounded p-2 bg-gray-500 mx-3.5 dark:bg-amber-50"
             onClick={searchHandler}
           >
             Try again
