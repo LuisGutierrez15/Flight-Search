@@ -22,7 +22,7 @@ export const fetchData = async (searchCriteria: FlightSearchCriteria) => {
     returnDate: returnDate ? (returnDate as string).split("T")[0] : undefined,
     adults,
     destination: destination?.split(":")[0],
-    currency: currency,
+    currency: currency?.split(" ")[0],
     nonStop: nonStop,
     sortByDuration,
     sortByPrice,
