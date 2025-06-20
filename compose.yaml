@@ -1,0 +1,29 @@
+services:
+  backend:
+ 
+    build: 
+      context: ./backend_flightsearch
+    ports:
+      - "8080:8080"
+    env_file: ./backend_flightsearch/.env
+    
+   
+    networks:
+      - app-network
+  frontend:
+    depends_on:
+      - backend
+    build: 
+      context: ./frontend_flightsearch
+    
+    ports:
+      - "4173:4173"
+    env_file: ./frontend_flightsearch/.env.production
+    
+    networks:
+      - app-network
+
+networks:
+  app-network:
+
+

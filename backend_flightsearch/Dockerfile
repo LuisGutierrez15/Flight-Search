@@ -6,4 +6,8 @@ COPY . .
 
 RUN chmod +x ./gradlew
 
+EXPOSE 8080
+
 CMD [ "./gradlew", "bootRun", "--no-daemon" ]
+
+VOLUME [ "/home/gradle/.gradle" ]
