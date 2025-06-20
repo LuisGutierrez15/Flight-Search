@@ -121,13 +121,22 @@ const DetailsPage = () => {
               Price Breakdown
             </p>
             <p className="text-sm dark:text-gray-300">
-              Base: {formatPrice(offer?.basePrice, offer.currency)}
+              Base: {formatPrice(offer.basePrice, offer.currency)}
             </p>
             <p className="text-sm dark:text-gray-300">
-              Fees: {formatPrice(offer?.fees, offer.currency)}
+              Fees: {formatPrice(offer.fees, offer.currency)}
             </p>
+            {offer.fees == 0 && (
+              <p className="text-sm dark:text-gray-300">
+                Additional required charges:{" "}
+                {formatPrice(
+                  offer.totalPrice - offer.basePrice,
+                  offer.currency
+                )}
+              </p>
+            )}
             <p className="text-sm font-bold dark:text-gray-100">
-              Total: {formatPrice(offer?.totalPrice, offer.currency)}
+              Total: {formatPrice(offer.totalPrice, offer.currency)}
             </p>
           </div>
           <div className="flex-1 sm:max-w-xs border rounded p-3 bg-gray-200 dark:bg-gray-900 dark:border-gray-700 border-white">
@@ -135,10 +144,19 @@ const DetailsPage = () => {
               Per Traveler
             </p>
             <p className="text-sm dark:text-gray-300">
-              Base: {formatPrice(offer?.basePricePerTraveler, offer.currency)}
+              Base: {formatPrice(offer.basePricePerTraveler, offer.currency)}
             </p>
+            {offer.fees == 0 && (
+              <p className="text-sm dark:text-gray-300">
+                Additional required charges:{" "}
+                {formatPrice(
+                  offer.totalPricePerTraveler - offer.basePricePerTraveler,
+                  offer.currency
+                )}
+              </p>
+            )}
             <p className="text-sm font-bold dark:text-gray-100">
-              Total: {formatPrice(offer?.totalPricePerTraveler, offer.currency)}
+              Total: {formatPrice(offer.totalPricePerTraveler, offer.currency)}
             </p>
           </div>
         </div>
