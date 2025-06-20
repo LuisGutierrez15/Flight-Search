@@ -15,6 +15,7 @@ jobs:
     env:
       AMADEUS_API_KEY: ${{ secrets.AMADEUS_API_KEY}}
       AMADEUS_API_SECRET: ${{ secrets.AMADEUS_API_SECRET}}
+      AMADEUS_API_BASE_URL: ${{ secrets.AMADEUS_API_BASE_URL }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -27,8 +28,6 @@ jobs:
       - name: Grant permissions to gradle
         run: chmod +x ./gradlew
 
-      - name: Check if secrets are present
-        run: echo $AMADEUS_API_KEY
       - name: Run Tests
         run: ./gradlew test
 
