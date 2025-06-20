@@ -27,6 +27,8 @@ jobs:
       - name: Grant permissions to gradle
         run: chmod +x ./gradlew
 
+      - name: Check if secrets are present
+        run: echo $AMADEUS_API_KEY
       - name: Run Tests
         run: ./gradlew test
 
