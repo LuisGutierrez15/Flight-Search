@@ -16,11 +16,20 @@ services:
     # Connect this service to the custom network
     networks:
       - app-network
+    
+    #Healthcheck to ensure backend is fully started before frontend
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/api/v1/flightsearch/hello"]
+      interval: 1m30s
+      timeout: 30s
+      retries: 5
+      start_period: 30s
 
   frontend:
     # Ensure the backend service starts before the frontend
     depends_on:
-      - backend
+      backend:
+        condition: service_healthy
 
     # Build the frontend image from the Dockerfile located in ./frontend_flightsearch
     build: 
