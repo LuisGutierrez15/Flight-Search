@@ -62,6 +62,8 @@ VITE_BACKEND_URL=http://localhost:8080
 
 The recommended way to start the project is via Docker Compose.
 
+> **NOTE:** Please make sure that .env file for backend and .env.production for frontend are already created
+
 ```
 docker compose up --build
 ```
