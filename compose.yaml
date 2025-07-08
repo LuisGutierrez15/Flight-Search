@@ -1,29 +1,42 @@
+# Docker Compose configuration file for the Flight Search application
+
 services:
   backend:
- 
+    # Build the backend image from the Dockerfile located in ./backend_flightsearch
     build: 
       context: ./backend_flightsearch
+      
+    # Map container port 8080 to host port 8080
     ports:
       - "8080:8080"
+    
+    # Load environment variables from the .env file in the backend directory
     env_file: ./backend_flightsearch/.env
     
-   
+    # Connect this service to the custom network
     networks:
       - app-network
+
   frontend:
+    # Ensure the backend service starts before the frontend
     depends_on:
       - backend
+
+    # Build the frontend image from the Dockerfile located in ./frontend_flightsearch
     build: 
       context: ./frontend_flightsearch
     
+    # Map container port 4173 to host port 4173
     ports:
       - "4173:4173"
+    
+    # Load production environment variables for the frontend
     env_file: ./frontend_flightsearch/.env.production
     
+    # Connect this service to the same custom network
     networks:
       - app-network
 
+# Define a custom bridge network for inter-service communication
 networks:
   app-network:
-
-

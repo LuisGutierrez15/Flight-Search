@@ -114,10 +114,12 @@ class FlightSearchControllerTest {
                 Mockito.when(flightSearchService.searchFlights(any(FlightSearchCriteria.class)))
                                 .thenReturn(expectedFlights);
 
+                String dateString = LocalDate.now().plusDays(20).toString();
+
                 mockMvc.perform(get("/api/v1/flightsearch/search")
                                 .param("origin", "JFK")
                                 .param("destination", "LAX")
-                                .param("departureDate", "2025-07-01")
+                                .param("departureDate", dateString)
                                 .param("adults", "1"))
                                 .andExpect(status().isOk())
                                 .andExpect(jsonPath("$.message").value("Flight search successful"));
