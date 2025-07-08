@@ -1,30 +1,29 @@
 # Flight Search Backend
 
-This is a Spring Boot backend service for searching and displaying flight offers. It provides endpoints to search for flights, retrieve airport codes by name, and display detailed flight information, including amenities, pricing, and layover details.
+This is a Spring Boot backend service for searching and retrieving flight offers.  
+It provides REST endpoints to search for flights, look up airport codes by name, and retrieve detailed flight information, including amenities, pricing, and layover data.
 
 ## Features
 
-- Search for flights by:
-  - Departure and arrival airport code
-  - Departure and return date
-  - Number of adults
-  - Currency (USD, MXN, EUR ...)
-  - Non-stop or with stops
-- Dynamic airport code lookup by name or partial name
-- Date validation (no past dates, return date after departure)
-- List flight options with:
-  - Initial departure and final arrival date/time
-  - Airport and airline names and codes
-  - Total flight duration (including layovers)
-  - Stop details (name, code, layover time)
-  - Total and per-traveler price in selected currency
-- Sort results by price and/or duration
-- Flight details view with:
-  - Segment-by-segment breakdown (times, airlines, aircraft, etc.)
-  - Traveler fare details per segment (cabin, class, amenities)
-  - Layover times
-  - Price breakdown (base, total, fees, per traveler)
-- All prices shown in the selected currency
+- **Flight Search**
+
+  - Search by departure and arrival airport code, departure and return date, number of adults, currency (USD, MXN, EUR, etc.), and non-stop preference.
+  - Validates dates (no past dates, return date must be after departure).
+
+- **Dynamic Airport Lookup**
+
+  - Find airport codes by partial or full name.
+
+- **Flight Results**
+
+  - Displays departure and arrival times, airport and airline names/codes, total duration (including layovers), stop details, and prices in the selected currency.
+  - Sort results by price and/or duration.
+
+- **Detailed Flight View**
+  - Segment-by-segment breakdown including times, airlines, aircraft, flight numbers, operating carriers, cabin, class, and amenities.
+  - Traveler fare details per segment.
+  - Layover durations.
+  - Complete price breakdown (base, total, fees, per traveler).
 
 ## Getting Started
 
@@ -34,7 +33,19 @@ This is a Spring Boot backend service for searching and displaying flight offers
 - Gradle
 - (Optional) Docker
 
-### Running Locally
+## Environment Variables
+
+Before running, create a `.env` file in the `backend_flightsearch` directory with the following structure:
+
+```
+AMADEUS_API_BASE_URL=https://test.api.amadeus.com
+AMADEUS_API_KEY=YOUR_API_KEY
+AMADEUS_API_SECRET=YOUR_API_SECRET
+```
+
+This is required for accessing the Amadeus flight API.
+
+## Running Locally
 
 1. Clone the repository:
 
@@ -43,7 +54,21 @@ This is a Spring Boot backend service for searching and displaying flight offers
    cd Flight-Search/backend_flightsearch
    ```
 
-2. Configure environment variables in `.env` for API keys and secrets
+2. Export environment variables from your `.env` file.
+
+   On Linux/macOS:
+
+   ```bash
+   export $(cat .env | xargs)
+   ```
+
+   On Windows PowerShell:
+
+   ```powershell
+   $env:AMADEUS_API_BASE_URL="https://test.api.amadeus.com"
+   $env:AMADEUS_API_KEY="YOUR_API_KEY"
+   $env:AMADEUS_API_SECRET="YOUR_API_SECRET"
+   ```
 
 3. Build and run the application:
 
@@ -53,7 +78,7 @@ This is a Spring Boot backend service for searching and displaying flight offers
 
 4. The API will be available at `http://localhost:8080`.
 
-### Running with Docker
+## Running with Docker
 
 1. Build the Docker image:
 
@@ -62,8 +87,19 @@ This is a Spring Boot backend service for searching and displaying flight offers
    ```
 
 2. Run the container:
+
    ```bash
    docker run -p 8080:8080 --env-file .env flight-search-backend
+   ```
+
+## Running Tests
+
+1. Make sure your environment variables are exported as above.
+
+2. Run backend tests using Gradle:
+
+   ```bash
+   ./gradlew test
    ```
 
 ## API Endpoints
@@ -74,8 +110,6 @@ This is a Spring Boot backend service for searching and displaying flight offers
 - `GET /api/v1/flightsearch/airports/{keyWord}`  
   Search for airports by name or partial name.
 
----
-
 ## Project Structure
 
 - `src/main/java` - Java source code
@@ -83,12 +117,8 @@ This is a Spring Boot backend service for searching and displaying flight offers
 - `build.gradle` - Build configuration
 - `.env` - Environment variables
 
----
-
 ## Development
 
-- Uses Java records for DTOs and domain models
-- Mapping and validation logic included for all requirements
-- Easily extendable for new features or integrations
-
----
+- Uses Java records for DTOs and domain models.
+- Includes mapping and validation logic for all requirements.
+- Easily extendable for additional features or integrations.
